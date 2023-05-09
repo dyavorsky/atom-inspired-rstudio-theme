@@ -14,7 +14,7 @@ This will appear in *Tools \> Global Options \> Appearance \> Editor Theme* as *
 
 If you have issues applying the theme programatically, try this instead:
 
- - Download the *atom_inspired.rstheme* file
+ - Download the *atom_inspired.rstheme* file from this github repo
  - Go to RStudio's Tools > Global Options > Appearance
  - Under Editor Theme, click "Add"
  - Select the *atom_inspired.rstheme* file from it's location on your machine
