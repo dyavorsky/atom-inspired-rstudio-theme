@@ -6,7 +6,7 @@
 You can try out this theme by running the following in R:
 
 ```{r}
-url <- "https://github.com/dyavorsky/atom-inspired/blob/main/atom_inspired.rstheme"
+url <- "https://github.com/dyavorsky/atom-inspired-rstudio-theme/blob/main/atom_inspired.rstheme"
 rstudioapi::addTheme(url, apply = TRUE, force = TRUE)
 ```
 
