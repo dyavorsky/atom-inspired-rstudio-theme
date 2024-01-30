@@ -25,9 +25,13 @@ To remove this theme, go to RStudio's Tools > Global Options > Appearance and cl
 ```{r}
 rstudioapi::removeTheme("One Dark {Inspired}")
 ```
+## 
 
 More information on custom RStudio themes can be found here:
 
 -   Posit's article "Using Themes in the RStudio IDE" [[link](https://support.posit.co/hc/en-us/articles/115011846747-Using-Themes-in-the-RStudio-IDE)]
 -   RStudio Extensions website for "Creating Custom Themes for RStudio" [[link](https://rstudio.github.io/rstudio-extensions/rstudio-theme-creation.html)]
 -   tkrable's GitHub repo for One Dark [[link](https://github.com/tkrabel/rstudio_atom_theme)]
+
+
+If you like the dark RStudio theme (not the editor theme), check out darkstudio [[link](https://github.com/rileytwo/darkstudio)]
