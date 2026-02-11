@@ -1,9 +1,9 @@
-/* rs-theme-name: One Dark {Inspired} */
+/* rs-theme-name: One Dark {DY} */
 /* rs-theme-is-dark: TRUE */
 /* A port of Atom One Dark Theme */
 
 .ace_gutter {
-  background: #1D2026;
+  background: #282c34;
   color: #464d5c
 }
 
@@ -13,7 +13,7 @@
 }
 
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
-  background-color: #1D2026;
+  background-color: #282c34;
   color: #abb2bf
 }
 
@@ -103,7 +103,7 @@
 .ace_entity.ace_name.ace_function,
 .ace_support.ace_function,
 .ace_variable {
-  color: #ced1cf;
+  color: #B798BF;
 }
 
 .ace_support.ace_class,
@@ -114,7 +114,7 @@
 .ace_heading,
 .ace_markup.ace_heading,
 .ace_string {
-  color: #56606e
+  color: #98c375
 }
 
 .ace_entity.ace_name.ace_tag,
