@@ -6,7 +6,9 @@
 
 ![](catppuccin-mocha_inspired.png)
 
-To use a theme, run the following in R:
+### Add Theme
+
+**On MacOS** run the following in R:
 
 ```{r}
 repo <- "https://github.com/dyavorsky/my-rstudio-themes/blob/main/"
@@ -19,9 +21,7 @@ rstudioapi::addTheme(url, apply = TRUE, force = TRUE)
 This will appear in *Tools \> Global Options \> Appearance \> Editor Theme* as **One Dark {DY}** or **Catppuccin-Mocha {DY}**
 
 
---- 
-
-If you have issues applying the theme programatically, try this instead:
+**On Windows** (or if you have issues applying the theme programatically on MacOS):
 
  - Download the *.rstheme* file from this github repo
  - Go to RStudio's Tools > Global Options > Appearance
@@ -29,13 +29,15 @@ If you have issues applying the theme programatically, try this instead:
  - Select the *.rstheme* file from it's location on your machine
  - Click "Apply"
 
+### Remove Theme
+
 To remove this theme, go to RStudio's *Tools > Global Options > Appearance* and click "Remove" or simply run
 
 ```{r}
 rstudioapi::removeTheme("One Dark {DY}")
 ```
 
---- 
+### Resources
 
 More information on custom RStudio themes can be found here:
 
